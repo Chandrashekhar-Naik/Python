@@ -1,0 +1,19 @@
+
+PYTHON CODE
+
+Program to print hotel bill using format specifier.
+
+Source code:
+
+print(format("HOTEL TAJ",">30"))
+print("%10s%10s%10s%10s%10s" %("ITEMS","QUANTITY","AMOUNT","GST","TOTAL"))
+print("%10s%10d%10d%10d%10d" %("Dosa",2,140,20,160))
+print("%10s%10d%10d%10d%10d" %("Cold drink",3,60,40,100))
+print("%40s%10d" %("Grand total:",260))
+
+Output:
+                       HOTEL TAJ
+       ITEMS  QUANTITY    AMOUNT       GST     TOTAL
+        Dosa         2       140        20       160
+  Cold drink         3        60        40       100
+                            Grand total:         260
